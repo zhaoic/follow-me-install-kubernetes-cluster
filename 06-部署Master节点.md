@@ -42,7 +42,9 @@ $
 1. 从 [github release 页面](https://github.com/kubernetes/kubernetes/releases) 下载发布版 tarball，解压后再执行下载脚本
 
     ``` shell
-    $ wget https://github.com/kubernetes/kubernetes/releases/download/v1.6.1/kubernetes.tar.gz
+    //$ wget https://github.com/kubernetes/kubernetes/releases/download/v1.6.1/kubernetes.tar.gz
+    //zhaoic
+    $ wget http://ooen6t0ir.bkt.clouddn.com/kubernetes.tar.gz
     $ tar -xzvf kubernetes.tar.gz
     ...
     $ cd kubernetes
@@ -56,7 +58,9 @@ $
 
     ``` shell
     $ # wget https://dl.k8s.io/v1.6.1/kubernetes-client-linux-amd64.tar.gz
-    $ wget https://dl.k8s.io/v1.6.1/kubernetes-server-linux-amd64.tar.gz
+    //$ wget https://dl.k8s.io/v1.6.1/kubernetes-server-linux-amd64.tar.gz
+    //zhaoic
+    $ wget http://ooen6t0ir.bkt.clouddn.com/kubernetes-server-linux-amd64.tar.gz
     $ tar -xzvf kubernetes-server-linux-amd64.tar.gz
     ...
     $ cd kubernetes

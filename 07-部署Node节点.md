@@ -50,7 +50,9 @@ $ /root/local/bin/etcdctl \
 
 ``` bash
 $ mkdir flannel
-$ wget https://github.com/coreos/flannel/releases/download/v0.7.0/flannel-v0.7.0-linux-amd64.tar.gz
+//$ wget https://github.com/coreos/flannel/releases/download/v0.7.0/flannel-v0.7.0-linux-amd64.tar.gz
+//zhaoic
+$ wget http://ooen6t0ir.bkt.clouddn.com/flannel-v0.7.0-linux-amd64.tar.gz
 $ tar -xzvf flannel-v0.7.0-linux-amd64.tar.gz -C flannel
 $ sudo cp flannel/{flanneld,mk-docker-opts.sh} /root/local/bin
 $
@@ -145,7 +147,9 @@ $ /root/local/bin/etcdctl \
 ### 下载最新的 docker 二进制文件
 
 ``` bash
-$ wget https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
+//$ wget https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
+//zhaoic
+$ wget http://ooen6t0ir.bkt.clouddn.com/docker-17.04.0-ce.tgz
 $ tar -xvf docker-17.04.0-ce.tgz
 $ cp docker/docker* /root/local/bin
 $ cp docker/completion/bash/docker /etc/bash_completion.d/
@@ -237,7 +241,9 @@ $
 ### 下载最新的 kubelet 和 kube-proxy 二进制文件
 
 ``` bash
-$ wget https://dl.k8s.io/v1.6.1/kubernetes-server-linux-amd64.tar.gz
+//$ wget https://dl.k8s.io/v1.6.1/kubernetes-server-linux-amd64.tar.gz
+//zhaoic
+$ wget http://ooen6t0ir.bkt.clouddn.com/kubernetes-server-linux-amd64.tar.gz
 $ tar -xzvf kubernetes-server-linux-amd64.tar.gz
 $ cd kubernetes
 $ tar -xzvf  kubernetes-src.tar.gz

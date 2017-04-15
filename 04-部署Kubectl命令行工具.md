@@ -15,7 +15,9 @@ $
 ## 下载 kubectl
 
 ``` bash
-$ wget https://dl.k8s.io/v1.6.1/kubernetes-client-linux-amd64.tar.gz
+//$ wget https://dl.k8s.io/v1.6.1/kubernetes-client-linux-amd64.tar.gz
+//zhaoic
+$ wget http://ooen6t0ir.bkt.clouddn.com/kubernetes-client-linux-amd64.tar.gz
 $ tar -xzvf kubernetes-client-linux-amd64.tar.gz
 $ sudo cp kubernetes/client/bin/kube* /root/local/bin/
 $ chmod a+x /root/local/bin/kube*

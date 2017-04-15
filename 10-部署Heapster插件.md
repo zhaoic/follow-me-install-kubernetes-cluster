@@ -3,7 +3,9 @@
 到 [heapster release 页面](https://github.com/kubernetes/heapster/releases) 下载最新版本的 heapster
 
 ``` bash
-$ wget https://github.com/kubernetes/heapster/archive/v1.3.0.zip
+//$ wget https://github.com/kubernetes/heapster/archive/v1.3.0.zip
+//zhaoic
+$ wget http://ooen6t0ir.bkt.clouddn.com/v1.3.0.zip
 $ unzip v1.3.0.zip
 $ mv v1.3.0.zip heapster-1.3.0
 $
